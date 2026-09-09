@@ -1,0 +1,16 @@
+{
+    "name": "docker-node-lab",
+    "version": "1.0.0",
+    "description": "A simple Node.js application to demonstrate Docker usage.",
+    "main": "index.js",
+    "scripts": {    
+        "start": "node src/index.js",
+        "dev": "nodemon -L src/index.js"
+    },
+    "dependencies": {
+        "express": "^5.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "3.1.10"
+    }
+}
