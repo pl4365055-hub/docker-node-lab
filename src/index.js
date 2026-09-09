@@ -4,7 +4,7 @@ const port = 3000;
 
 app.get('/', (req, res) => {
   res.json({ 
-    message: 'Helle from Docker Development8!' ,
+    message: 'Hello hot reload!' ,
     node: process.version
   });
 });
